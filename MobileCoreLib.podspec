@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '8.0'
   s.name         = "MobileCoreLib"
-  s.version      = "0.1.0"
+  s.version      = "1.0"
   s.summary      = "Mobile Core components"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/luyaocheng/MobileCoreLib.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/luyaocheng/MobileCoreLib.git", :tag => 1.0 }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,9 +93,9 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "MobileCoreLib", "MobileCoreLib/**/*.{h,m}"
-  s.exclude_files = "MobileCoreLib/Exclude"
+  # s.exclude_files = "MobileCoreLib/Exclude"
 
-  # s.public_header_files = "MobileCoreLib/**/*.h"
+  s.public_header_files = "MobileCoreLib/**/*.h", "MobileCoreLib/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
