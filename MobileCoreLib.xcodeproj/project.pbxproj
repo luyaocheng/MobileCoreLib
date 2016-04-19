@@ -10,6 +10,8 @@
 		21828A4A1CC5A7960053E59F /* MobileCoreLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 21828A491CC5A7960053E59F /* MobileCoreLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21828A511CC5A7960053E59F /* MobileCoreLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21828A461CC5A7950053E59F /* MobileCoreLib.framework */; };
 		21828A561CC5A7960053E59F /* MobileCoreLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21828A551CC5A7960053E59F /* MobileCoreLibTests.m */; };
+		21ABAF811CC5B702003F0645 /* MobileCoreTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21ABAF7F1CC5B702003F0645 /* MobileCoreTestViewController.h */; };
+		21ABAF821CC5B702003F0645 /* MobileCoreTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21ABAF801CC5B702003F0645 /* MobileCoreTestViewController.m */; };
 		DE9274B4E8478F13AB503828 /* libPods-MobileCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A524DAC2C2A582C9A5B7D7 /* libPods-MobileCoreLib.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		21828A501CC5A7960053E59F /* MobileCoreLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCoreLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21828A551CC5A7960053E59F /* MobileCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileCoreLibTests.m; sourceTree = "<group>"; };
 		21828A571CC5A7960053E59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21ABAF7F1CC5B702003F0645 /* MobileCoreTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileCoreTestViewController.h; sourceTree = "<group>"; };
+		21ABAF801CC5B702003F0645 /* MobileCoreTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileCoreTestViewController.m; sourceTree = "<group>"; };
 		A3A524DAC2C2A582C9A5B7D7 /* libPods-MobileCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileCoreLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE564EE621415B6AE00F9AA6 /* Pods-MobileCoreLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCoreLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileCoreLib/Pods-MobileCoreLib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 		21828A481CC5A7950053E59F /* MobileCoreLib */ = {
 			isa = PBXGroup;
 			children = (
+				21ABAF7E1CC5B6DF003F0645 /* Classes */,
 				21828A491CC5A7960053E59F /* MobileCoreLib.h */,
 				21828A4B1CC5A7960053E59F /* Info.plist */,
 			);
@@ -91,6 +96,15 @@
 				21828A571CC5A7960053E59F /* Info.plist */,
 			);
 			path = MobileCoreLibTests;
+			sourceTree = "<group>";
+		};
+		21ABAF7E1CC5B6DF003F0645 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21ABAF7F1CC5B702003F0645 /* MobileCoreTestViewController.h */,
+				21ABAF801CC5B702003F0645 /* MobileCoreTestViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8128975F7FBB81D5EB8A82B9 /* Pods */ = {
@@ -117,6 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ABAF811CC5B702003F0645 /* MobileCoreTestViewController.h in Headers */,
 				21828A4A1CC5A7960053E59F /* MobileCoreLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21ABAF821CC5B702003F0645 /* MobileCoreTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
