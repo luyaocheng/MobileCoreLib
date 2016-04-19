@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.name         = "MobileCoreLib"
   s.version      = "1.0"
-  
   s.summary      = "Mobile Core components"
 
   # This description is used to generate tags and improve search results.
