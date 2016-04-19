@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21828A4A1CC5A7960053E59F /* MobileCoreLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 21828A491CC5A7960053E59F /* MobileCoreLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21828A511CC5A7960053E59F /* MobileCoreLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21828A461CC5A7950053E59F /* MobileCoreLib.framework */; };
+		21828A561CC5A7960053E59F /* MobileCoreLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21828A551CC5A7960053E59F /* MobileCoreLibTests.m */; };
+		DE9274B4E8478F13AB503828 /* libPods-MobileCoreLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A524DAC2C2A582C9A5B7D7 /* libPods-MobileCoreLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21828A521CC5A7960053E59F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21828A3D1CC5A7950053E59F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21828A451CC5A7950053E59F;
+			remoteInfo = MobileCoreLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B37268D70D4237FF613CF36 /* Pods-MobileCoreLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCoreLib.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileCoreLib/Pods-MobileCoreLib.release.xcconfig"; sourceTree = "<group>"; };
+		21828A461CC5A7950053E59F /* MobileCoreLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileCoreLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21828A491CC5A7960053E59F /* MobileCoreLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileCoreLib.h; sourceTree = "<group>"; };
+		21828A4B1CC5A7960053E59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21828A501CC5A7960053E59F /* MobileCoreLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileCoreLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21828A551CC5A7960053E59F /* MobileCoreLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileCoreLibTests.m; sourceTree = "<group>"; };
+		21828A571CC5A7960053E59F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A524DAC2C2A582C9A5B7D7 /* libPods-MobileCoreLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileCoreLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE564EE621415B6AE00F9AA6 /* Pods-MobileCoreLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileCoreLib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileCoreLib/Pods-MobileCoreLib.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21828A421CC5A7950053E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9274B4E8478F13AB503828 /* libPods-MobileCoreLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21828A4D1CC5A7960053E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21828A511CC5A7960053E59F /* MobileCoreLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21828A3C1CC5A7950053E59F = {
+			isa = PBXGroup;
+			children = (
+				21828A481CC5A7950053E59F /* MobileCoreLib */,
+				21828A541CC5A7960053E59F /* MobileCoreLibTests */,
+				21828A471CC5A7950053E59F /* Products */,
+				8128975F7FBB81D5EB8A82B9 /* Pods */,
+				D8DB0243B7CB224757FE06EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21828A471CC5A7950053E59F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21828A461CC5A7950053E59F /* MobileCoreLib.framework */,
+				21828A501CC5A7960053E59F /* MobileCoreLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21828A481CC5A7950053E59F /* MobileCoreLib */ = {
+			isa = PBXGroup;
+			children = (
+				21828A491CC5A7960053E59F /* MobileCoreLib.h */,
+				21828A4B1CC5A7960053E59F /* Info.plist */,
+			);
+			path = MobileCoreLib;
+			sourceTree = "<group>";
+		};
+		21828A541CC5A7960053E59F /* MobileCoreLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				21828A551CC5A7960053E59F /* MobileCoreLibTests.m */,
+				21828A571CC5A7960053E59F /* Info.plist */,
+			);
+			path = MobileCoreLibTests;
+			sourceTree = "<group>";
+		};
+		8128975F7FBB81D5EB8A82B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE564EE621415B6AE00F9AA6 /* Pods-MobileCoreLib.debug.xcconfig */,
+				1B37268D70D4237FF613CF36 /* Pods-MobileCoreLib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8DB0243B7CB224757FE06EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A524DAC2C2A582C9A5B7D7 /* libPods-MobileCoreLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21828A431CC5A7950053E59F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21828A4A1CC5A7960053E59F /* MobileCoreLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21828A451CC5A7950053E59F /* MobileCoreLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21828A5A1CC5A7960053E59F /* Build configuration list for PBXNativeTarget "MobileCoreLib" */;
+			buildPhases = (
+				A6677FC292080F08E593C406 /* Check Pods Manifest.lock */,
+				21828A411CC5A7950053E59F /* Sources */,
+				21828A421CC5A7950053E59F /* Frameworks */,
+				21828A431CC5A7950053E59F /* Headers */,
+				21828A441CC5A7950053E59F /* Resources */,
+				1859C2F48194C3F5CF107B28 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileCoreLib;
+			productName = MobileCoreLib;
+			productReference = 21828A461CC5A7950053E59F /* MobileCoreLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21828A4F1CC5A7960053E59F /* MobileCoreLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21828A5D1CC5A7960053E59F /* Build configuration list for PBXNativeTarget "MobileCoreLibTests" */;
+			buildPhases = (
+				21828A4C1CC5A7960053E59F /* Sources */,
+				21828A4D1CC5A7960053E59F /* Frameworks */,
+				21828A4E1CC5A7960053E59F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21828A531CC5A7960053E59F /* PBXTargetDependency */,
+			);
+			name = MobileCoreLibTests;
+			productName = MobileCoreLibTests;
+			productReference = 21828A501CC5A7960053E59F /* MobileCoreLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21828A3D1CC5A7950053E59F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Luyao Cheng";
+				TargetAttributes = {
+					21828A451CC5A7950053E59F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					21828A4F1CC5A7960053E59F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 21828A401CC5A7950053E59F /* Build configuration list for PBXProject "MobileCoreLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21828A3C1CC5A7950053E59F;
+			productRefGroup = 21828A471CC5A7950053E59F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21828A451CC5A7950053E59F /* MobileCoreLib */,
+				21828A4F1CC5A7960053E59F /* MobileCoreLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21828A441CC5A7950053E59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21828A4E1CC5A7960053E59F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1859C2F48194C3F5CF107B28 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileCoreLib/Pods-MobileCoreLib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6677FC292080F08E593C406 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21828A411CC5A7950053E59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21828A4C1CC5A7960053E59F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21828A561CC5A7960053E59F /* MobileCoreLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21828A531CC5A7960053E59F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21828A451CC5A7950053E59F /* MobileCoreLib */;
+			targetProxy = 21828A521CC5A7960053E59F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21828A581CC5A7960053E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21828A591CC5A7960053E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21828A5B1CC5A7960053E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE564EE621415B6AE00F9AA6 /* Pods-MobileCoreLib.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobileCoreLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cly.MobileCoreLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		21828A5C1CC5A7960053E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B37268D70D4237FF613CF36 /* Pods-MobileCoreLib.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MobileCoreLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cly.MobileCoreLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		21828A5E1CC5A7960053E59F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCoreLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cly.MobileCoreLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21828A5F1CC5A7960053E59F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MobileCoreLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cly.MobileCoreLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21828A401CC5A7950053E59F /* Build configuration list for PBXProject "MobileCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21828A581CC5A7960053E59F /* Debug */,
+				21828A591CC5A7960053E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21828A5A1CC5A7960053E59F /* Build configuration list for PBXNativeTarget "MobileCoreLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21828A5B1CC5A7960053E59F /* Debug */,
+				21828A5C1CC5A7960053E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21828A5D1CC5A7960053E59F /* Build configuration list for PBXNativeTarget "MobileCoreLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21828A5E1CC5A7960053E59F /* Debug */,
+				21828A5F1CC5A7960053E59F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21828A3D1CC5A7950053E59F /* Project object */;
+}
